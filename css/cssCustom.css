@@ -1,0 +1,27 @@
+button.home {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+button.home::before {
+  margin-left: auto;
+}
+
+button.home::after, button.home::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+
+button.home:hover::after, button.home:hover::before {
+  width: 100%;
+}
+
