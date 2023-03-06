@@ -1,2 +1,5 @@
-# odin-recipes
-Odin Projects - Recipes 
+# Odin Recipes
+Odin Projects - Recipes
+
+# Website Link
+https://ya-dola.github.io/odin-recipes/
